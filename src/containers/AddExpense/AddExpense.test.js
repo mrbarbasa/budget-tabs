@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import AddExpense from './AddExpense';
 
 it('renders without crashing', () => {
-  const rendered = renderer.create(<App />).toJSON();
+  const rendered = renderer.create(<AddExpense />).toJSON();
   expect(rendered).toMatchSnapshot();
 });

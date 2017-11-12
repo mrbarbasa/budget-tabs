@@ -1,12 +1,6 @@
 {
   "name": "budget-tabs",
   "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-native-scripts": "1.7.0",
-    "jest-expo": "22.0.0",
-    "react-test-renderer": "16.0.0-beta.5"
-  },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "react-native-scripts start",
@@ -18,8 +12,14 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "devDependencies": {
+    "jest-expo": "22.0.0",
+    "react-native-scripts": "1.7.0",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
   "dependencies": {
     "expo": "22.0.2",
+    "prop-types": "15.6.0",
     "react": "16.0.0-beta.5",
     "react-native": "0.49.5",
     "react-navigation": "1.0.0-beta.19"

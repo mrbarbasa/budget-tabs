@@ -1,6 +1,6 @@
 import { StackNavigator } from 'react-navigation';
-import Overview from './Overview';
-import AddExpense from './AddExpense';
+import Overview from './Overview/Overview';
+import AddExpense from './AddExpense/AddExpense';
 
 const RootNavigator = StackNavigator({
   Overview: {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Font } from 'expo';
-import RootNavigator from './containers/RootNavigator';
+import RootNavigator from './src/containers/RootNavigator';
 
-export default class App extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = { fontsLoaded: false };
@@ -32,3 +32,5 @@ export default class App extends Component {
     return <RootNavigator />;
   }
 }
+
+export default App;
