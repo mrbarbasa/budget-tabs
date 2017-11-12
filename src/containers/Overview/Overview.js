@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
 });
 
 Overview.propTypes = {
-  navigation: PropTypes.object.isRequired,
+  navigation: PropTypes.object,
 };
 
 export default Overview;
